@@ -1,0 +1,13 @@
+<app-page class="hero-skills-list">
+    <app-page-section backgroundColor="#f4e241">
+        <div page-section-title>Hero Skills</div>
+        <ng-container page-section-content>
+            <div
+                class="hero-skill-item"
+                *ngFor="let skill of heroSkills$ | async"
+            >
+                <app-hero-skill [skill]="skill"></app-hero-skill>
+            </div>
+        </ng-container>
+    </app-page-section>
+</app-page>

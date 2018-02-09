@@ -1,0 +1,11 @@
+{
+    "/api/*": {
+        "target": "https://uhfxxujepg.execute-api.us-east-1.amazonaws.com/dev",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<app-page class="hero-groups-list">
+    <app-page-section backgroundColor="#41f47d">
+        <div page-section-title>Hero Groups</div>
+        <ng-container page-section-content>
+            <div
+                class="hero-group-item"
+                *ngFor="let group of heroGroups$ | async"
+            >
+                <app-hero-group [group]="group"></app-hero-group>
+            </div>
+        </ng-container>
+    </app-page-section>
+</app-page>
