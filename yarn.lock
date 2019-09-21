@@ -158,6 +158,14 @@
   dependencies:
     tslib "^1.7.1"
 
+"@ngrx/effects@^5.0.1":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-5.2.0.tgz#aa762b69cb6fd4644d724a1cecd265caa42baf09"
+
+"@ngrx/store@^5.0.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-5.2.0.tgz#627ed74c9cd95462930485d912a557117b23903e"
+
 "@ngtools/json-schema@1.1.0", "@ngtools/json-schema@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@ngtools/json-schema/-/json-schema-1.1.0.tgz#c3a0c544d62392acc2813a42c8a0dc6f58f86922"
@@ -4054,8 +4062,8 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
 lodash@^4.0.0, lodash@^4.11.1, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.5.0, lodash@~4.17.4:
-  version "4.17.5"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
 
 log4js@^2.3.9:
   version "2.5.2"
@@ -4439,6 +4447,10 @@ negotiator@0.6.1:
 netmask@~1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
+
+ngx-bootstrap@^2.0.2:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-2.0.5.tgz#83aab39d1e4fe811fad2b34f7927f9ce19d68daa"
 
 no-case@^2.2.0:
   version "2.3.2"
